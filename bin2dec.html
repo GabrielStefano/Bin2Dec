@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Binary to Decimal Converter</title>
+        <link rel='stylesheet' href='bin2dec.css'/>
+    </head>
+    <body>
+        <div class='header'>
+            <h1>Binary to Decimal Converter</h1>
+        </div>
+
+
+        <div class="container">
+            <div class="container1">
+                <div class='section'>
+                    <p>Binary:</p>
+                    <p><input type="number" name="" class="textbox" id="value"></p>
+                    <div class='buttons'>
+                        
+                        <input type="button" value="Add 0" class="button" id='add0'>
+                        <input type="button" value="Add 1" class="button" id='add1'>
+                    </div>
+                    <div class='convertbutton'>
+                        <p><input type="button" value="Convert" class="button" id='convert'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <p>Decimal:</p>
+                <p><input type="number" name="" class="textbox" id="result"  onKeyDown="return false"></p>
+            </div>
+
+        </div>
+
+
+        <div class='footer'>
+            <p>Gabriel Stefano</p>
+        </div>
+        
+        <script src='bin2dec.js'></script>
+    </body>
+</html>

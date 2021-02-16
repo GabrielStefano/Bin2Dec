@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #DDE0E3;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 600px;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    font-size: 20pt;
+}
+
+.container1{
+    width: 50%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15pt;
+    /* background: white; */
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12pt;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.buttons{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.button{
+    font-size: 12pt;
+    padding: 5px;
+}
+
+.textbox{
+    height: 20pt;
+    padding-left: 5pt;
+    font-size: 12pt;
+    margin-bottom: 10pt;
+    margin-top: 10pt;
+}
+
+.convertbutton{
+    display: flex;
+    /* position: relative; */
+    /* left:70px; */
+    width: 65%;
+    justify-content: center;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

@@ -21,7 +21,7 @@ function add1(){
 function convert(){
 
     if(/[2-9]+/.test(value_input.value)==true){
-        window.alert('Invalid input!')
+        window.alert('Invalid input! Anything other than a 0 or 1 was entered')
     }
     else{
         var resultado = parseInt(value_input.value, 2)
